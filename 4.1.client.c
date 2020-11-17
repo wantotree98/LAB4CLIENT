@@ -10,7 +10,7 @@ int main(int argc, char*argv[]){
 
 
 int socket_desc;
-char*server_reply;
+char server_reply[2000]={0};
 struct sockaddr_in server;
 char*message;
 
